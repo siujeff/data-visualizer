@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+.envrc
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb~*
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Data (keep samples only)
+data/*
+!data/.gitkeep
